@@ -1,5 +1,5 @@
 <template>
-  <section class="git init ubuntu-regular">
+  <section class="explain-note ubuntu-regular">
     <div class="explain-note-body">
       <form v-if="!checkForm" class="form" @submit.prevent="checkingForm()">
         <div class="form-body">
