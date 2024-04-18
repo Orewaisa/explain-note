@@ -12,11 +12,6 @@
           </div>
           
           <div class="form-input">
-            <label>Пречислите подтверждение</label>
-            <input type="text" v-model="confirmation" placeholder="Мой кот может подтвердить..." required>
-          </div>
-          
-          <div class="form-input">
             <label>Текс записки</label>
             <input type="text" v-model="textNote" placeholder="Минимум 20 символов" required>
             <p>{{ sumbolCheck }}</p>
@@ -179,7 +174,6 @@
   const checkForm = ref(false);
   const date = ref("");
   const sumbolCheck = ref()
-  const confirmation = ref("");
   const textNote = ref("");
   const name = ref("");
   const placeWork = ref("");
