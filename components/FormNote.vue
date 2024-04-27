@@ -12,7 +12,7 @@
           </div>
           
           <div class="form-input">
-            <label>Текс записки</label>
+            <label>Текст записки</label>
             <input type="text" v-model="textNote" placeholder="Минимум 20 символов" required>
             <p>{{ sumbolCheck }}</p>
           </div>
